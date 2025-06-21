@@ -7,7 +7,7 @@ def get_book_text(path_to_file :str) -> str:
     return contents
 
 def main():
-    if len(sys.argv) < 2:
+    if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
 
